@@ -24,5 +24,5 @@ setup(
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python :: Implementation :: PyPy',
     ],
-    packages=['djschema']
+    packages=['djschema'], requires=['django']
  )
